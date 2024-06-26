@@ -1,0 +1,44 @@
+.message{
+    display: flex;
+    flex-direction: column;
+}
+
+.messageImg{
+    
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+
+
+.messageTopText{
+    background-color: rgb(66, 103, 182);
+    color: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.messageBottom{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.message.own{
+    align-items: flex-end;
+}
+
+.colown{
+    background-color: rgb(80, 116, 80,.8);
+}
+
+.coloth{
+    background-color: rgb(66, 103, 182);
+}
+
+.message.own .messageTopText{
+    
+    color: black;
+}
+

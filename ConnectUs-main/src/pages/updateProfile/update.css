@@ -1,0 +1,112 @@
+.updateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E1F4FA;
+}
+
+.updateWrapper{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+}
+
+.updateDesc{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.694);
+
+}
+
+.updateLeft{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.updateRight{
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.updateLogo{
+
+    color: rgb(66, 103, 182);
+
+}
+
+.updateBox{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px;
+    background-color:white ;
+    border-radius: 10px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.updateInput{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    border:1px solid gray;
+    padding-left: 10px;
+}
+
+.updateButton{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border:1px solid gray;
+    background-color: rgb(66, 103, 182);
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+.updateLogin{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(44, 198, 44);
+    color: white;
+    font-weight: 500;
+    width: 60%;
+    align-self: center;
+}
+
+.updateButton,.updateInput,.updateLogin:focus{
+    outline: none;
+}
+
+.updateTitle{
+    color: rgb(66, 103, 182);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.updateBoxItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.updateBox label{
+    font-size: 17px;
+    font-weight: 500;
+}

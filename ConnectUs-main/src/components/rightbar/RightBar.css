@@ -1,0 +1,133 @@
+.rightbarContainer{
+    flex:3.8;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    /* position: sticky; */
+    /* top:50px */
+}
+
+
+
+
+.rightbarWrapper{
+    display: flex;
+    padding-top: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+
+.birthdayGift{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.rightbarAd{
+    max-height: 500px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.onlineFriendsList{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rightbarTitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+}
+
+.rightbarInfoKey{
+    font-weight: 500;
+    color: #555;
+    margin-right: 10px;
+}
+
+.rightbarInfoValue{
+    font-weight: 300;
+}
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+ 
+}
+
+.rightbarFollowing{
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+.rightbarFollowingImg{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+.rightbarFollowingName{
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.rightbarFollowButton{
+    margin-top: 20px;
+    background-color: rgb(66, 103, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rightbarButtons{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}

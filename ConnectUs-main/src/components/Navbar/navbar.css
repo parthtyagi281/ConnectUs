@@ -1,0 +1,174 @@
+.navbarContainer {
+  z-index: 999;
+  height: 50px;
+  background-color: rgb(66, 103, 182);
+  position: sticky;
+  top: 0;
+}
+
+.navbarLeft {
+  /* here we are giving the 3 columns of 12 columns of navbar to left part */
+  flex: 3;
+}
+.navbarMid {
+  flex: 5;
+  position: relative;
+}
+.navbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.navbarImg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.searchbar {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+}
+
+.navbarLink {
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbarIcons {
+  display: flex;
+}
+
+.navbarIconsItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+.navbarIconsBedge {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  top: -5px;
+  right: -5px;
+}
+
+.navbarModal {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.navbarModalItem {
+  padding: 8px;
+  border-bottom: 1px solid gray;
+  color: black;
+  cursor: pointer;
+}
+.navbarModalItem:hover {
+  color: white;
+  background-color: rgb(66, 103, 182);
+  border-radius: 5px;
+}
+
+.navbarModalContainer {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-results {
+  margin-left: 3px;
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  background-color: rgb(247, 244, 244);
+  z-index: 6000;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+
+.searchUserInfo {
+  padding: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(205, 203, 203);
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.searchUserInfo:hover {
+  background-color: rgba(211, 208, 208, 0.228);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbarLink {
+    display: none;
+  }
+}
+
+.cancelIcon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.searchUserImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
